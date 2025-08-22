@@ -1,0 +1,40 @@
+# CODEOWNERS file for content-api-947
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-qa @Armor-test/squad-research @Armor-test/unit-cloud
+
+# Directory ownership
+/scripts/ @Armor-test/dept-ui @Armor-test/team-notifications @Armor-test/grp-api
+/examples/ @Armor-test/dept-api @Armor-test/unit-devops
+/web/ @Armor-test/squad-product @Armor-test/dept-release
+/extensions/ @Armor-test/squad-cache @Armor-test/squad-search
+/api/ @Armor-test/grp-integration @Armor-test/squad-research
+/static/ @Armor-test/grp-storage @Armor-test/dept-identity @Armor-test/squad-tooling
+/assets/ @Armor-test/squad-database @Armor-test/grp-storage
+/hooks/ @Armor-test/unit-governance @Armor-test/dept-billing
+/services/ @Armor-test/team-security @Armor-test/squad-api @Armor-test/team-notifications
+/third_party/ @Armor-test/team-governance @Armor-test/squad-frontend @Armor-test/dept-release
+/middleware/ @Armor-test/grp-integration @Armor-test/team-research @Armor-test/unit-design
+
+# File type ownership
+*.tsx @Armor-test/team-security @Armor-test/squad-frontend @Armor-test/dept-data
+*.scala @Armor-test/grp-integration @Armor-test/squad-ux @Armor-test/squad-ml
+*.cs @Armor-test/unit-test @Armor-test/unit-design
+*.js @Armor-test/team-research @Armor-test/unit-design
+*.ini @Armor-test/squad-database @Armor-test/unit-test
+*.rb @Armor-test/squad-mobile @Armor-test/squad-apps @Armor-test/dept-reporting
+*.yml @Armor-test/unit-design @Armor-test/dept-ui @Armor-test/grp-ui
+*.rs @Armor-test/grp-api @Armor-test/unit-cloud
+*.sh @Armor-test/squad-performance @Armor-test/unit-devops
+*.gradle @Armor-test/unit-devops @Armor-test/dept-test @Armor-test/squad-api
+*.md @Armor-test/dept-release @Armor-test/squad-api @Armor-test/team-research
+*.html @Armor-test/squad-payments @Armor-test/unit-cloud @Armor-test/dept-reliability
+*.jsx @Armor-test/dept-logging @Armor-test/dept-data
+*.lock @Armor-test/grp-payments @Armor-test/squad-cloud
+*.ts @Armor-test/grp-api @Armor-test/unit-cloud
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
